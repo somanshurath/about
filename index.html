@@ -1,235 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Somanshu Rath</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap"
-            rel="stylesheet"
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Somanshu Rath</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <!-- <header>
+      <h1>Somanshu Rath</h1>
+      <nav>
+        <ul>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </nav>
+    </header> -->
+
+    <section id="about">
+      <img src="assets/images/dp.jpg" alt="My Picture" />
+      <div class="about-content">
+        <h2 class="greeting special-text">
+          Hi
+          <img
+            src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif"
+            class="wave-emoji"
+            alt="wave"
+          />
+        </h2>
+        <p class="intro">
+          I'm Somanshu, a computer science undergrad at BITS Pilani with a
+          passion for building innovative software solutions and solving complex
+          technical challenges.
+        </p>
+        <p class="description">
+          My expertise spans across full-stack development, computational
+          geometry, and machine learning. With experience in both startup and
+          open-source environments, I'm constantly working to expand my skills
+          through projects and internships.
+        </p>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="experience-item">
+        <div class="experience-content">
+          <h3 class="special-text">Backend Intern - Mira3D</h3>
+          <p>
+            <strong>Onsite Internship — Mumbai, India</strong> | Dec 2024 - Apr
+            2024
+          </p>
+          <p><a href="https://mira3dp.com" target="_blank">mira3dp.com</a></p>
+          <ul class="experience-list">
+            <li>
+              Collaborated in development on latest additive manufacturing
+              software of Mira3D, developing backend logic for file repair using
+              computational geometry concepts in C++ and optimizing for
+              ElectronJS based frontend rendering using Node API.
+            </li>
+            <li>
+              Improved hole filling and shell repair time by about 38% by
+              devising custom repair algorithm with low level implementation in
+              C++.
+            </li>
+          </ul>
+        </div>
+        <img
+          src="assets/images/mira3d.png"
+          alt="Mira3D Project"
+          class="experience-image"
         />
-        <link rel="stylesheet" href="styles.css" />
-    </head>
-    <body>
-        <!-- Home Section -->
-        <h1>hi<span class="blinking-cursor">|</span></h1>
-        <p>I'm Somanshu Rath.<br/>jack of all trades, master of some...</p>
+      </div>
+      <div class="experience-item">
+        <div class="experience-content">
+          <h3 class="special-text">
+            Web Developer Intern - Sleepeum Therapeutics
+          </h3>
+          <p>
+            <strong>Remote Internship — Goa, India</strong> | Aug 2024 - Oct
+            2024
+          </p>
+          <p>
+            <a href="https://portal.sleepeum.app" target="_blank"
+              >portal.sleepeum.app</a
+            >
+          </p>
+          <ul class="experience-list">
+            <li>
+              Collaborated on the 0 to 1 product launch of a doctor-user
+              consultation and booking platform.
+            </li>
+            <li>
+              Developed a responsive and intuitive user interface using React,
+              Redux, and Bootstrap, ensuring smooth navigation, optimized
+              performance, and seamless integration with back-end features for
+              user appointment scheduling and admin dashboard.
+            </li>
+          </ul>
+        </div>
+        <img
+          src="assets/images/sleepeum.png"
+          alt="Sleepeum Project"
+          class="experience-image"
+        />
+      </div>
+      <div class="experience-item">
+        <div class="experience-content">
+          <h3 class="special-text">Summer Intern - Swecha Telangana</h3>
+          <p>
+            <strong>Onsite Internship — Hyderabad, India</strong> | May 2024 -
+            Jul 2024
+          </p>
+          <p><a href="https://rb.gy/kywce2" target="_blank">rb.gy/kywce2</a></p>
+          <ul class="experience-list">
+            <li>
+              Facilitated development of Swecha's Telugu Corpus App,
+              collaborating closely with the team for timely delivery to
+              Telangana ITE&C and Swecha's Telugu LLM Datathon in July 2024.
+            </li>
+            <li>
+              Implemented the service for uploading handwritten text to support
+              Swecha's Telugu OCR project, utilizing Hive and AppWrite storage
+              integrated with Flutter frontend.
+            </li>
+          </ul>
+        </div>
+        <img
+          src="assets/images/swecha.png"
+          alt="Swecha Project"
+          class="experience-image"
+        />
+      </div>
+    </section>
 
-        <!-- About Me Section -->
-        <h2 class="light-blue-text-highlight">About Me</h2>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-item">
+        <h3 class="special-text">Trade Master</h3>
         <p>
-            I'm currently a B.E. Computer Science Undergrad at BITS Pilani, with
-            experience in both startup environments and open-source
-            contributions. I have a background in competitive programming, a
-            keen interest in real-time systems, and a wide-ranging skill set
-            that spans full-stack development, data science, and gps systems.
+          <a href="https://github.com/somanshurath/trade-master" target="_blank"
+            >github repo link (currently private)
+          </a>
         </p>
+        <div class="project-image">
+          <img
+            src="assets/images/trade-master.png"
+            alt="Trade Master Project"
+          />
+        </div>
         <p>
-            I'm constantly working to expand my skills through projects and
-            internships, diving into technologies and exploring new domains.
+          Trade Master is a ImGui and WebSockets based high-performance order
+          execution and management system for trading. It provides real-time
+          market data, portfolio management, and backtesting with advanced
+          charting capabilities.
         </p>
-
-        <!-- Experience Section -->
-        <h2 class="light-blue-text-highlight">Experience</h2>
-        <div class="experience-item">
-            <h3>> <span class="pink-text-highlight">Undergrad Research Intern</span></h3>
-            <p><strong>GNSS Labs, BITS Goa</strong> | Nov 2024 - Present</p>
-            <ul>
-                <li>
-                    Developing PVT block for GNSS receivers for ISRO's NavIC
-                    system.
-                </li>
-                <li>
-                    Building library in C and Python for real-time data
-                    processing and testing.
-                </li>
-            </ul>
+      </div>
+      <div class="project-item">
+        <h3 class="special-text">Soundwave</h3>
+        <p>
+          <a href="https://github.com/somanshurath/soundwave" target="_blank"
+            >github repo link
+          </a>
+        </p>
+        <div class="project-image">
+          <img
+            src="assets/images/soundwave.png"
+            alt="Soundwave Project"
+            class="project-image"
+          />
         </div>
-        <div class="experience-item">
-            <h3>
-                > <span class="pink-text-highlight">Web Developer Intern</span>
-            </h3>
-            <p><strong>Sleepeum Therapeutics</strong> | Aug 2024 - Sept 2024</p>
-            <ul>
-                <li>
-                    Led the product launch of a doctor-user consultation and
-                    booking platform.
-                </li>
-                <li>
-                    Developed an intuitive UI using React, Redux, and Bootstrap,
-                    enabling smooth user navigation and backend integration.
-                </li>
-            </ul>
+        <p>
+          SoundWave is a real-time audio processing pipeline that ingests audio
+          streams from multiple sources, performs audio processing tasks
+          (primarily pitch shift), and stores the processed audio, which can be
+          further processed to generate a transcript.
+        </p>
+      </div>
+      <div class="project-item">
+        <h3 class="special-text">Soundwave</h3>
+        <p>
+          <a href="https://github.com/somanshurath/soundwave" target="_blank"
+            >github repo link
+          </a>
+        </p>
+        <div class="project-image">
+          <img
+            src="assets/images/soundwave.png"
+            alt="Soundwave Project"
+            class="project-image"
+          />
         </div>
-        <div class="experience-item">
-            <h3>
-                >
-                <span class="pink-text-highlight"
-                    >Summer Intern (Open Source)</span
-                >
-            </h3>
-            <p><strong>Swecha Telangana</strong> | May 2024 - Jul 2024</p>
-            <ul>
-                <li>
-                    Contributed to Swecha's Telugu Corpus App, aiding its Telugu
-                    AI Datathon.
-                </li>
-                <li>
-                    Integrated handwritten text uploading for their OCR project
-                    using Hive, AppWrite storage, and a Flutter frontend.
-                </li>
-            </ul>
-        </div>
+        <p>
+          SoundWave is a real-time audio processing pipeline that ingests audio
+          streams from multiple sources, performs audio processing tasks
+          (primarily pitch shift), and stores the processed audio, which can be
+          further processed to generate a transcript.
+        </p>
+      </div>
+    </section>
 
-        <!-- Projects Section -->
-        <section id="projects">
-            <h2 class="light-blue-text-highlight">Projects</h2>
-            <div class="project-item">
-                <h3>> <span class="pink-text-highlight">Soundwave</span></h3>
-                <p>
-                    <strong>Distributed Systems Project</strong> | Oct 2024 -
-                    Present
-                </p>
-                <ul>
-                    <li>
-                        Building a real-time audio processing pipeline with
-                        Apache Kafka and Apache Flink, facilitating multi-source
-                        audio stream processing.
-                    </li>
-                    <li>
-                        Integrating features like speech-to-text, noise
-                        reduction, and signal mixing to improve audio data
-                        quality across distributed devices.
-                    </li>
-                </ul>
-            </div>
-            <div class="project-item">
-                <h3>> <span class="pink-text-highlight">Flappy Square</span></h3>
-                <p>
-                    <strong>Game Development Project</strong> | Sep 2023 - Dec
-                    2023
-                </p>
-                <ul>
-                    <li>
-                        Developed an arcade-style game with JavaScript and
-                        p5.js, incorporating physics, score tracking, and
-                        responsive controls for a fun user experience.
-                    </li>
-                    <li>
-                        Have plans to expand the game for ai agents training on
-                        genetic algorithms (NEAT).
-                    </li>
-                </ul>
-            </div>
-            <div class="project-item">
-                <h3>> <span class="pink-text-highlight">Note-it</span></h3>
-                <p>
-                    <strong>Web Development Project</strong> | Sep 2023 - Nov
-                    2023
-                </p>
-                <ul>
-                    <li>
-                        Created a note-taking web app using the MERN stack with
-                        features like user account management and customizable
-                        note options.
-                    </li>
-                </ul>
-            </div>
-        </section>
+    <footer style="background: transparent; text-align: center; padding: 20px;">
+      <div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
+        <a href="https://github.com/somanshurath" target="_blank" aria-label="GitHub">
+        <img src="assets/icons/github.png" alt="GitHub" style="width: 40px; height: 40px;" />
+        </a>
+        <a href="https://linkedin.com/in/somanshurath" target="_blank" aria-label="LinkedIn">
+          <img src="assets/icons/linkedin.png" alt="LinkedIn" style="width: 40px; height: 40px;"/>
+        </a>
+        <a href="mailto:somanshu.code@gmail.com" aria-label="Gmail">
+          <img src="assets/icons/gmail.png" alt="Gmail" style="width: 40px; height: 40px;" />
+        </a>
+      </div>
+    </footer>
 
-        <!-- Skills Section -->
-        <section id="skills">
-            <h2 class="light-blue-text-highlight">Skills</h2>
-            <p>
-                <strong>> <span class="green-text-highlight">Programming Languages:</strong>
-                Python, C++, C, JavaScript, Java, MATLAB
-            </p>
-            <p>
-                <strong>> <span class="green-text-highlight">Web & Backend Development:</strong>
-                ReactJS, NodeJS, Flask
-            </p>
-            <p>
-                <strong>> <span class="green-text-highlight">Data Processing & Distributed Systems:</strong>
-                Apache Kafka, Apache Flink
-            </p>
-            <p>
-                <strong>> <span class="green-text-highlight">Mobile App Development:</strong>
-                Flutter
-            </p>
-            <p>
-                <strong>> <span class="green-text-highlight">Databases:</strong>
-                MySQL, MongoDB, PostgreSQL
-            </p>
-            <p>
-                <strong>> <span class="green-text-highlight">Operating Systems:</strong>
-                Linux (Ubuntu), Windows
-            </p>
-        </section>
-
-        <!-- Education Section -->
-        <section id="education">
-            <h2 class="light-blue-text-highlight">Education</h2>
-            <p>
-                <strong>B.E. Computer Science</strong> <br />
-                <span class="yellow-text-highlight">BITS Pilani, K.K. Birla Goa Campus</span> | Oct 2022 - May 2026
-            </p>
-            <p>
-                <strong>Senior Secondary (CBSE Board)</strong> <br />
-                M.K.V.V.I Vidyalaya, Mumbai | May 2022, 93%
-            </p>
-            <p>
-                <strong>Secondary (ICSE Board)</strong> <br />
-                Bhaktivedanta School, Mumbai | Mar 2020, 98.6%
-            </p>
-        </section>
-
-        <!-- Achievements Section -->
-        <section id="achievements">
-            <h2 class="light-blue-text-highlight">Scholastic Achievements</h2>
-
-            <p>
-                <strong> Competitive Programming:</strong> <span class="yellow-text-highlight">Codeforces
-                Specialist</span>, current rating 1415 (Handle: somatcha)
-            </p>
-            <p>
-                <strong> Joint Entrance Examination (Advanced):</strong>
-                All India Rank of 5300 out of 160,000+ students, 2022
-            </p>
-            <p>
-                <strong>
-                    Indian National Junior Science Olympiad (INJSO):</strong
-                >
-                Qualified, top 300 from 41,278 candidates, 2019
-            </p>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact">
-            <h2 class="light-blue-text-highlight">Contact</h2>
-            <p>
-                <strong>Email:</strong>
-                <a href="mailto:somanshu.code@gmail.com"
-                    >somanshu.code@gmail.com</a
-                >
-            </p>
-            <p>
-                <strong>LinkedIn:</strong>
-                <a href="https://www.linkedin.com/in/somanshurath"
-                    >linkedin.com/in/somanshurath</a
-                >
-            </p>
-            <p>
-                <strong>GitHub:</strong>
-                <a href="https://github.com/somanshurath"
-                    >github.com/somanshurath</a
-                >
-            </p>
-            <p>
-                <strong>GitLab:</strong>
-                <a href="https://gitlab.com/somatcha">gitlab.com/somatcha</a>
-            </p>
-        </section>
-    </body>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
