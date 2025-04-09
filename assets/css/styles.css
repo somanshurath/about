@@ -228,11 +228,12 @@ h2 {
 h2::after {
     content: '';
     position: absolute;
-    width: 50%;
+    width: 100px;
     height: 3px;
     bottom: -10px;
     left: 0;
     background: linear-gradient(90deg, var(--accent-blue), transparent);
+    margin: 0 auto;
 }
 
 /* Profile container with emojis */
