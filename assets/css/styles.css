@@ -331,13 +331,6 @@ h2::after {
     font-weight: 500;
 }
 
-#about .description {
-    font-size: 1.1rem;
-    color: #c9d1d9;
-    /* Slightly whiter than the default secondary text */
-    line-height: 1.8;
-}
-
 @keyframes wave {
 
     0%,
@@ -368,14 +361,19 @@ h2::after {
     }
 
     #about img {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         margin-bottom: 1rem;
         /* Reduced from 2rem */
     }
 
     #about .about-content {
         max-width: 90%;
+    }
+
+    .intro {
+        font-size: 1.2rem !important;
+        /* Reduced from 1.4rem */
     }
 
     #about .greeting {
