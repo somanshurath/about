@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Somanshu Rath</title>
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="icon" href="assets/icons/code.png" type="image/png" />
   </head>
   <body>
     <!-- <header>
@@ -26,6 +27,8 @@
             src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif"
             class="wave-emoji"
             alt="wave"
+            style="box-shadow: none"
+            ;
           />
         </h2>
         <p class="intro">
@@ -33,7 +36,60 @@
           passion for building innovative software solutions and solving complex
           technical challenges.
         </p>
-        <p class="description">
+        <div>
+          <div class="circular-logos">
+            <a href="#gehc">
+              <img
+                src="assets/icons/gehc.png"
+                alt="gehc"
+                style="
+                  width: 50px;
+                  height: 50px;
+                  border-radius: 50%;
+                  margin: 10px;
+                "
+              />
+            </a>
+            <a href="#mira">
+              <img
+                src="assets/icons/mira.jpeg"
+                alt="mira"
+                style="
+                  width: 50px;
+                  height: 50px;
+                  border-radius: 50%;
+                  margin: 10px;
+                "
+              />
+            </a>
+            <a href="#sleepeum">
+              <img
+                src="assets/icons/sleepeum.png"
+                alt="sleepeum"
+                style="
+                  width: 50px;
+                  height: 50px;
+                  border-radius: 50%;
+                  margin: 10px;
+                "
+              />
+            </a>
+            <a href="#swecha">
+              <img
+                src="assets/icons/swecha.jpg"
+                alt="swecha"
+                style="
+                  width: 50px;
+                  height: 50px;
+                  border-radius: 50%;
+                  margin: 10px;
+                "
+                onclick="window.location.href='#experience';"
+              />
+            </a>
+          </div>
+        </div>
+        <p class="description" style="margin-top: 20px">
           <a
             href="assets/resume.pdf"
             download="resume_somanshu_rath"
@@ -62,7 +118,33 @@
 
     <section id="experience">
       <h2>Experience</h2>
-      <div class="experience-item">
+      <div class="experience-item" id="gehc">
+        <div class="experience-content">
+          <h3 class="special-text">EID Intern - GE Healthcare</h3>
+          <p>
+            <strong>Onsite Internship — Bengaluru, India</strong> | May 2025 -
+            Present
+          </p>
+          <p>
+            <a href="https://www.gehealthcare.com/" target="_blank"
+              >gehealthcare.com</a
+            >
+          </p>
+          <ul class="experience-list">
+            <li>
+              Working on developing and optimizing healthcare applications,
+              ensuring high performance and scalability to handle large datasets
+              and complex workflows.
+            </li>
+          </ul>
+        </div>
+        <img
+          src="assets/images/gehc.png"
+          alt="GEHC Logo"
+          class="experience-image"
+        />
+      </div>
+      <div class="experience-item" id="mira">
         <div class="experience-content">
           <h3 class="special-text">Backend Intern - Mira3D</h3>
           <p>
@@ -90,7 +172,7 @@
           class="experience-image"
         />
       </div>
-      <div class="experience-item">
+      <div class="experience-item" id="sleepeum">
         <div class="experience-content">
           <h3 class="special-text">
             Web Developer Intern - Sleepeum Therapeutics
@@ -123,7 +205,7 @@
           class="experience-image"
         />
       </div>
-      <div class="experience-item">
+      <div class="experience-item" id="swecha">
         <div class="experience-content">
           <h3 class="special-text">Summer Intern - Swecha Telangana</h3>
           <p>
@@ -305,5 +387,18 @@
     </footer>
 
     <script src="assets/js/main.js"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-TLMXRP4VNY"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-TLMXRP4VNY");
+    </script>
   </body>
 </html>
